@@ -31,3 +31,4 @@ student2.display()
 students = [student1,student2]
 for student in students:
     student.display()
+
