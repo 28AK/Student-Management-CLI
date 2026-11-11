@@ -32,3 +32,9 @@ students = [student1,student2]
 for student in students:
     student.display()
 
+
+def search_student(students,roll_num):
+    for student in students:
+        if student.roll_num == roll_num:
+            student.display()
+            break 
